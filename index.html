@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroPrime Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background: linear-gradient(to right, #4a812d, #86b35d);
+      color: white;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .logo img {
+  max-height: 85px;
+  height: auto;
+  max-width: 100%;
+}
+
+    
+
+    /* Main Blog Content */
+    .container {
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .search-bar {
+      display: flex;
+      margin: 20px 0;
+    }
+
+    .search-bar input {
+      flex: 1;
+      padding: 12px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .categories {
+      margin-bottom: 30px;
+    }
+
+    .categories button {
+      background-color: #e0e0e0;
+      border: none;
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .featured, .latest {
+      margin-top: 40px;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+
+    .featured img, .latest img {
+      width: 100%;
+      max-width: 750px;
+      max-height: 400px;
+      border-radius: 10px;
+    }
+
+    .featured-content, .latest-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .article {
+      max-width: 600px;
+      margin-right: 150px;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background-color: #86b35d;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .read-more.green {
+      background-color: #dff5e1;
+      color: green;
+      font-weight: bold;
+    }
+    .latest .featured-content {
+  flex-direction: row-reverse;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo"> <img src="v366_592.png" alt=""></div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Information</a>
+      <a href="#">Blog</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+
+  <!-- Blog Container -->
+  <div class="container">
+    <h1>AgroPrime Blog</h1>
+    <p class="subtitle">Stay updated with the latest in agriculture, from innovative farming techniques to market trends and expert insights.</p>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="🔍 Search..." />
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+      <button>Farming Techniques</button>
+      <button>Market Trends</button>
+      <button>Crop Management</button>
+      <button>Sustainable Agriculture</button>
+      <button>Technology in Farming</button>
+    </div>
+
+    <!-- Featured Articles -->
+    <div class="featured">
+      <h2>Featured Articles</h2>
+      <div class="featured-content">
+        <img src="v89_16.png" alt="Precision Farming">
+        <div class="article">
+          <h3>Revolutionizing Farming with Precision Agriculture</h3>
+          <p>Explore how Features Articals is transforming farming practices, enhancing efficiency, and boosting yields.</p>
+          <a href="#" class="read-more green">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Articles -->
+    <div class="latest">
+      <h2>Latest Articles</h2>
+      <div class="featured-content">
+        <img src="v89_41.png" alt="Soil Health">
+        <div class="article">
+          <h3>Understanding Soil Health for Optimal Crop Growth</h3>
+          <p>Learn about the importance of soil health and how to maintain it for better crop yields.</p>
+          <a href="#" class="read-more green">Read More</a>
+        </div>
+      </div>
+
+
+
+
+
+
+       <div class="featured-content">
+        <img src="v89_41.png" alt="Soil Health">
+        <div class="article">
+          <h3>Understanding Soil Health for Optimal Crop Growth</h3>
+          <p>Learn about the importance of soil health and how to maintain it for better crop yields.</p>
+          <a href="#" class="read-more green">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
